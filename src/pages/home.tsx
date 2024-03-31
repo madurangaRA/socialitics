@@ -1,7 +1,6 @@
 import { BasicUserInfo, Hooks, useAuthContext } from "@asgardeo/auth-react";
 import React, { FunctionComponent, ReactElement, useCallback, useEffect, useState } from "react";
 import { default as authConfig } from "../config.json";
-import REACT_LOGO from "../images/react-logo.png";
 import { DefaultLayout } from "../layouts/default";
 import { AuthenticationResponse } from "../components";
 import { useLocation } from "react-router-dom";
@@ -113,11 +112,6 @@ export const HomePage: FunctionComponent = (): ReactElement => {
         return (
             <div className="content">
                 <h2>You need to update the Client ID to proceed.</h2>
-                <p>Please open &quot;src/config.json&quot; file using an editor, and update
-                    the <code>clientID</code> value with the registered application&apos;s client ID.</p>
-                <p>Visit repo <a
-                    href="https://github.com/asgardeo/asgardeo-auth-react-sdk/tree/master/samples/asgardeo-react-app">README</a> for
-                    more details.</p>
             </div>
         );
     }

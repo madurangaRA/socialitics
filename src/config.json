@@ -5,6 +5,6 @@
         "openid",
         "profile"
     ],
-    "signInRedirectURL": "https://localhost:3000",
-    "signOutRedirectURL": "https://localhost:3000"
+    "signInRedirectURL": "https://f67e993f-ef0b-4ec0-ad1a-18223c4ee911.e1-us-east-azure.choreoapps.dev",
+    "signOutRedirectURL": "https://f67e993f-ef0b-4ec0-ad1a-18223c4ee911.e1-us-east-azure.choreoapps.dev"
 }
